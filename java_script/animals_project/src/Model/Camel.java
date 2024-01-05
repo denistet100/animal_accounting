@@ -1,13 +1,13 @@
 package Model;
 
-public class Donkey extends PackedAnimals{
-    public Donkey(String name, String date) {
+public class Camel extends PackedAnimals{
+    public Camel(String name, String date) {
         super(name, date);
     }
 
     @Override
     public String toString() {
-        return "Donkey {" +
+        return "Camel {" +
                 "name = '" + super.getName() + '\'' +
                 ", commands = " + super.getCommands() +
                 ", dateOfBirth = '" + super.getDateOfBirth() + '\'' +
